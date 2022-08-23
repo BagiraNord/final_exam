@@ -1,0 +1,209 @@
+nav.nav {
+    background-color: aliceblue;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(84, 117, 163);
+    display: flex;
+}
+
+.list-group-item {
+    .item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 80%;
+            .box {
+                width: 15px;
+                height: 15px;
+                border: 1px solid coral;
+                margin: 0 10px;
+            }
+            .cat {
+                font-size: 75%;
+                color: skyblue;
+                text-decoration: underline;
+                margin: 0 0 0 40px;
+                cursor: pointer;
+            }
+        }
+        .nest-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            li {
+                background-color: aliceblue;
+                color: pink;
+            }
+        }
+        .buttons {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        b {
+            margin-right: 7px;
+        }
+        i {
+            margin-left: 7px;
+        }
+        u {
+            margin-left: 7px;
+            color: skyblue;
+        }
+        .com-bin {
+            width: 100%;
+            p {
+                font-size: 10px;
+                color: rgb(48, 101, 136);
+                width: 80%;
+            }
+            h5 {
+                width: 20%;
+            }
+        }
+        &.front {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            .comments {
+                margin: 10px 0;
+                padding: 10px;
+                border: 1px solid pink;
+                border-radius: 5px;
+                width: 100%;
+                h5 {
+                    color: pink;
+                }
+            }
+        }
+    }
+}
+
+.list-group-item {
+    .item-front {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .form-group {
+            width: 100%;
+        }
+        textarea {
+            width: 100%;
+        }
+        .nest-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            li {
+                background-color: aliceblue;
+                color: pink;
+            }
+        }
+        .buttons {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        b {
+            margin-right: 7px;
+        }
+        i {
+            margin-left: 7px;
+        }
+        u {
+            margin-left: 7px;
+            color: skyblue;
+        }
+    }
+}
+
+.modal {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.show-message {
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    width: 100%;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 3;
+    .alert-danger {
+        background-color: #f8d7dac2;
+    }
+    .alert-info {
+        background-color: #d1ecf1c2;
+    }
+    .alert-success {
+        background-color: #d4eddac2;
+    }
+    div {
+        width: 50%;
+        margin-right: 30px;
+    }
+}
+
+button.with-loader {
+    .spinner-border {
+        display: none;
+    }
+}
+
+button.with-loader:disabled {
+    .spinner-border {
+        display: inline-block;
+    }
+}
+
+.photo-bin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    max-width: 300px;
+    padding-right: 5px;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.login {
+    display: inline-block;
+    padding: 100px;
+}
+
+.frontbottoms {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.order {
+    border-radius: 25px;
+    background-color: rgb(112, 226, 226);
+    float:right;
+    border-style: double;
+    height: 45px; 
+    width: 100px;
+}
